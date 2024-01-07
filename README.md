@@ -10,7 +10,7 @@
 
 ##### create data and user using the following curl
 
-   --curl --location --request GET 'http://localhost:8082/prepare/demo' \
+       --request GET 'http://localhost:8082/prepare/demo' \
 
 The above curl will create
 User-1: username=Akp, password=@123, role=ADMIN
@@ -26,10 +26,10 @@ User-2: username=userakp, password=123@, role=USER
 
 #### Create Project
 
---request POST 'http://localhost:8082/project' \
- --data-raw '{
-"name": "Add Integration Tests"
-}'
+    --request POST 'http://localhost:8082/project' \
+    --data-raw '{
+    "name": "Add Integration Tests"
+      }'
 
 #### GET All Projects
 
