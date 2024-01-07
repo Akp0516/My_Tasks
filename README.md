@@ -6,7 +6,7 @@
 1. Database:MySql
 1. Maven
 1. Spring boot project
-1. Spring sequrity
+1. Spring security
 
 ##### create data and user using the following curl
 
