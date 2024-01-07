@@ -96,6 +96,6 @@ User-2: username=userakp, password=123@, role=USER
 
 #### GET All Users
 
-   --request GET 'http://localhost:8082/users' \
+    --request GET 'http://localhost:8082/users' \
 
 
