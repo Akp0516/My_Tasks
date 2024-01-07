@@ -10,7 +10,7 @@
 
 ##### create data and user using the following curl
 
---request GET 'http://localhost:8082/prepare/demo' \
+   --curl --location --request GET 'http://localhost:8082/prepare/demo' \
 
 The above curl will create
 User-1: username=Akp, password=@123, role=ADMIN
