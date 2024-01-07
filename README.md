@@ -97,3 +97,11 @@ User-2: username=userakp, password=123@, role=USER
 #### GET All Users
 
 --request GET 'http://localhost:8082/users' \
+
+
+curl --location --request POST 'http://localhost:8080/project' \
+	--header 'Content-Type: application/json' \
+	--header 'Authorization: Basic dXNlcjE6MTIzNA==' \
+	--data-raw '{
+	    "name": "Add Integration Tests"
+	}'
