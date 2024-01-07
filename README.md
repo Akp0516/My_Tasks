@@ -49,19 +49,19 @@ User-2: username=userakp, password=123@, role=USER
 
 ##### Only accessible to ADMIN users
 
-    --request GET 'http://localhost:8082/tasks/user/8' \
+     --request GET 'http://localhost:8082/tasks/user/8' \
 
 #### Create Task
 
-   --request POST 'http://localhost:8082/task' \
-   --data-raw '{
-   "description": "Design Data Flow Diagram",
-   "status": "OPEN",
-   "project": {
-   "projectId": 100
-     },
-   "dueDate": "2021-01-31"
-   }'
+    --request POST 'http://localhost:8082/task' \
+    --data-raw '{
+    "description": "Design Data Flow Diagram",
+     "status": "OPEN",
+    "project": {
+    "projectId": 100
+       },
+    "dueDate": "2021-01-31"
+    }'
 
 #### Edit Task
 
@@ -99,9 +99,3 @@ User-2: username=userakp, password=123@, role=USER
    --request GET 'http://localhost:8082/users' \
 
 
-
-	--header 'Content-Type: application/json' \
-	--header 'Authorization: Basic dXNlcjE6MTIzNA==' \
-	--data-raw '{
-	    "name": "Add Integration Tests"
-	}'
